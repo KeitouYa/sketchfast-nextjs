@@ -1,4 +1,4 @@
-# AI Image Generator & Chat Platform
+# Sketchfast — AI Image Generation & Chat (Next.js full-stack)
 
 A full-stack SaaS application for AI image generation and chat, with a pay-per-use credit system, built on Next.js 15 with a layered backend.
 
@@ -7,7 +7,7 @@ A full-stack SaaS application for AI image generation and chat, with a pay-per-u
 ![Mongoose](https://img.shields.io/badge/Mongoose-8-green?logo=mongodb)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 
-**Live Demo**: [https://ai-image-chat-saas.vercel.app/](https://ai-image-chat-saas.vercel.app/)
+> This is the full-stack Next.js version: pages and a TypeScript backend in one app, with PayPal for credits. The version with a Spring Boot backend and Stripe is in [sketchfast](https://github.com/KeitouYa/sketchfast).
 
 ## Technical Highlights
 
@@ -188,8 +188,8 @@ logger.info("➡️ POST /api/chat", { requestId });
 ### Installation
 
 ```bash
-git clone https://github.com/KeitouYa/ai-image-chat-saas.git
-cd ai-image-chat-saas
+git clone https://github.com/KeitouYa/sketchfast-nextjs.git
+cd sketchfast-nextjs
 npm install --legacy-peer-deps
 ```
 
